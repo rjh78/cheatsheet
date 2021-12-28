@@ -1,0 +1,44 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+table {
+  border: 1px solid lightblue;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto 25px;
+}
+
+caption {
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* creates alternating color in tables */
+tbody tr:nth-child(odd) {
+  background-color: rgba(133, 205, 250, 0.25);
+}
+
+tbody tr {
+  height: 30px;
+}
+
+th {
+  font-weight: bold;
+  height: 25px;
+}
+
+/* these 3 id's set the column widths - using % to make responsive to viewport */
+#col-1 {
+  width: 10%;
+}
+
+#col-2 {
+  width: 15%;
+}
+
+#col-3 {
+  width: 60%;
+}
